@@ -1,17 +1,13 @@
 ﻿using _421FinalProject.Machine;
 using _421FinalProject.Orders;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _421FinalProject.Employee
-{
+namespace _421FinalProject.Employee {
     class Employee : EmployeeIF
     {
         private string name{get; set;}
         private int age;
+        private Order currentOrder;
 
         public Employee(string name, int age)
         {
@@ -19,19 +15,63 @@ namespace _421FinalProject.Employee
             this.name = name;
         }
 
-        public override DonutIF prepareDonut(DonutMachine dm)
-        {
-            return null;//Fix later
+        /// <summary>
+        ///     Employee if free will preform this action while the donutmachine is not 
+        ///     currently in use. The employee will grab one of the orders out of the 
+        ///     Order Queue and will begin to make this order. Assuming that this order has
+        ///     a donut, then they will need to use this donutMachine to make the item.
+        /// </summary>
+        /// 
+        /// <param name="dm">  
+        ///     This takes in the donutmachine so that the employee can use the machine 
+        ///     to prepare the donut for the customer based on their order. Which is sent
+        ///     to the available employee from the queue of orders that need to be done.
+        /// </param>
+        /// 
+        /// <returns>   
+        ///      This returns a DonutIF for the customer.    
+        /// </returns>
+        public DonutIF prepareDonut(DonutMachine dm) {
+            return new MDonut();
         }
 
-        public override CoffeeIF prepareCoffee(CoffeeMachine cm)
-        {
-            return null;//Fix later
-        }
-    
-        void override handleOrder(Order o)
-        {
 
+        /// <summary>
+        ///     Employee, if free, will preform this action while the CoffeeMachine is not 
+        ///     currently in use. The employee will grab one of the orders out of the 
+        ///     Order Queue and will begin to make this order. Assuming that this order has
+        ///     a coffee, then they will need to use this coffeeMachine to make the item.
+        /// </summary>
+        /// 
+        /// <param name="cm">  
+        ///     This takes in the coffee so that the employee can use the machine 
+        ///     to prepare the coffee for the customer based on their order. Which is sent
+        ///     to the available employee from the queue of orders that need to be done.
+        /// </param>
+        /// 
+        /// <returns>   
+        ///      This returns a CoffeeIF for the order.    
+        /// </returns>
+        public CoffeeIF prepareCoffee(CoffeeMachine cm) {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        ///     This is used for the employee so that they can make this order that
+        ///     they grabbed. previously from the getNewOrder method.
+        /// </summary>
+        public void handleOrder() {
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        ///     
+        /// </summary>
+        /// <param name="o">
+        ///     used to set the current order in this employee
+        /// </param>
+        public void getNewOrder(Order o) {
+            currentOrder = o;
         }
     }
 }

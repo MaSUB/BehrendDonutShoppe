@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace _421FinalProject
-{
+namespace _421FinalProject {
     static class Program
     {
         /// <summary>
@@ -16,7 +12,7 @@ namespace _421FinalProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PSUBMainForm());
         }
     }
 }

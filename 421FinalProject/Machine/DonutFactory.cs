@@ -1,13 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using _421FinalProject.Orders;
 
-namespace _421FinalProject.Machine
-{
-    class DonutFactory : DonutIF
-    {
+namespace _421FinalProject.Machine {
+    class DonutFactory : DonutIF {
+
+        DonutAC donut;
+
+        public string description() {
+            return donut.description();
+        }
+
+        public double getPrice() {
+            return donut.getPrice();
+        }
     }
 }

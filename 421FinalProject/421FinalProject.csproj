@@ -56,6 +56,7 @@
     <Compile Include="Machine\DonutFactory.cs" />
     <Compile Include="Machine\DonutMachine.cs" />
     <Compile Include="Machine\MachineIF.cs" />
+    <Compile Include="Orders\BCreamDonut.cs" />
     <Compile Include="Orders\BehrendDonut.cs" />
     <Compile Include="Orders\ChocolateDonut.cs" />
     <Compile Include="Orders\CoffeeIF.cs" />
@@ -67,6 +68,9 @@
     <Compile Include="Orders\RegularDonut.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -11,5 +11,9 @@ namespace _421FinalProject.Orders {
         public abstract double getPrice();
 
         public abstract string description();
+
+        public int getPrepTime() {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -53,7 +53,9 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Machine\CoffeeMachine.cs" />
-    <Compile Include="Machine\DonutFactory.cs" />
+    <Compile Include="Orders\CoffeeCondiments.cs" />
+    <Compile Include="Orders\CoffeeCream.cs" />
+    <Compile Include="Orders\DonutFactory.cs" />
     <Compile Include="Machine\DonutMachine.cs" />
     <Compile Include="Machine\MachineIF.cs" />
     <Compile Include="Orders\BCreamDonut.cs" />

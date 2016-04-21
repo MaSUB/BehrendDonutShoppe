@@ -60,8 +60,12 @@ namespace _421FinalProject.Employee {
         ///     This is used for the employee so that they can make this order that
         ///     they grabbed. previously from the getNewOrder method.
         /// </summary>
-        public void handleOrder() {
-            throw new NotImplementedException();
+        public Order handleOrder() {
+
+
+
+            return null;    //  should return the finished order.
+
         }
 
         /// <summary>

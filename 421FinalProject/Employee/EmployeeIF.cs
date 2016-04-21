@@ -7,6 +7,6 @@ namespace _421FinalProject.Employee {
         DonutIF prepareDonut(DonutMachine dm);
         CoffeeIF prepareCoffee(CoffeeMachine cm);
         void getNewOrder(Order o);
-        void handleOrder();
+        Order handleOrder();
     }
 }

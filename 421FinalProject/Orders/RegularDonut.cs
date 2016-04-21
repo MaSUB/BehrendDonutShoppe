@@ -6,7 +6,7 @@ namespace _421FinalProject.Orders {
         /// <summary>
         ///     This used to set the actual price of the different donuts that are available.
         /// </summary>
-        RegularDonut() {
+        public RegularDonut() {
             price = 0;  //  need to adjust the price.
         }
 

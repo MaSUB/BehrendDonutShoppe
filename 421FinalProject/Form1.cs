@@ -7,5 +7,9 @@ namespace _421FinalProject {
         {
             InitializeComponent();
         }
+
+        private void btnNewOrder_Click(object sender, System.EventArgs e) {
+
+        }
     }
 }

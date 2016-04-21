@@ -2,7 +2,8 @@
     interface Item
     {
 
-       double getPrice();
+        int getPrepTime();
+        double getPrice();
 
     }
 }

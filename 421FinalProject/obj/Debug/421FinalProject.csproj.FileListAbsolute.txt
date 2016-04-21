@@ -4,3 +4,7 @@ C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421F
 C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.PSUBMainForm.resources
 C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.Properties.Resources.resources
 C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.csproj.GenerateResource.Cache
+C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.exe
+C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.pdb
+C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.exe
+C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.pdb

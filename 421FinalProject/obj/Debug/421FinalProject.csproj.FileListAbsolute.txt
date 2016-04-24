@@ -8,3 +8,13 @@ C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421F
 C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.pdb
 C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.exe
 C:\Users\mason\OneDrive\Documents\GitHub\421FinalProject\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.pdb
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.exe.config
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.exe
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.pdb
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.exe
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.pdb
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.csprojResolveAssemblyReference.cache
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.PSUBMainForm.resources
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.OrderForm.resources
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.Properties.Resources.resources
+C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.csproj.GenerateResource.Cache

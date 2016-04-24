@@ -3,11 +3,8 @@ using _421FinalProject.Orders;
 using System;
 
 namespace _421FinalProject.Employee {
-    class Employee : EmployeeIF
+    class Employee : EmployeeAC
     {
-        private string name{get; set;}
-        private int age;
-        private Order currentOrder;
 
         public Employee(string name, int age)
         {
@@ -31,7 +28,7 @@ namespace _421FinalProject.Employee {
         /// <returns>   
         ///      This returns a DonutIF for the customer.    
         /// </returns>
-        public DonutIF prepareDonut(DonutMachine dm) {
+        public override DonutIF prepareDonut(DonutMachine dm) {
             return new MDonut();
         }
 
@@ -52,7 +49,7 @@ namespace _421FinalProject.Employee {
         /// <returns>   
         ///      This returns a CoffeeIF for the order.    
         /// </returns>
-        public CoffeeIF prepareCoffee(CoffeeMachine cm) {
+        public override CoffeeIF prepareCoffee(CoffeeMachine cm) {
             throw new NotImplementedException();
         }
 
@@ -60,7 +57,7 @@ namespace _421FinalProject.Employee {
         ///     This is used for the employee so that they can make this order that
         ///     they grabbed. previously from the getNewOrder method.
         /// </summary>
-        public Order handleOrder() {
+        public override Order handleOrder() {
 
 
 
@@ -68,14 +65,5 @@ namespace _421FinalProject.Employee {
 
         }
 
-        /// <summary>
-        ///     
-        /// </summary>
-        /// <param name="o">
-        ///     used to set the current order in this employee
-        /// </param>
-        public void getNewOrder(Order o) {
-            currentOrder = o;
-        }
     }
 }

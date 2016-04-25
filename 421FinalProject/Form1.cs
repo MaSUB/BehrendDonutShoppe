@@ -1,10 +1,15 @@
-﻿using System;
+﻿using _421FinalProject.Orders;
+using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Windows.Forms;
 
 namespace _421FinalProject {
     public partial class PSUBMainForm : Form
     {
+
+        Queue<Order> orderQueue = new Queue<Order>();
+
         public PSUBMainForm()
         {
             InitializeComponent();

@@ -2,7 +2,5 @@
     interface MachineIF
     {
 
-
-
     }
 }

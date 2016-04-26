@@ -128,6 +128,11 @@
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
+            this.listBox1.Items.AddRange(new object[] {
+            "Regular Donut",
+            "Maple Donut",
+            "Chocolate Donut",
+            "Behrend Cream Donut"});
             this.listBox1.Location = new System.Drawing.Point(0, 43);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
@@ -164,6 +169,11 @@
             this.listBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
+            this.listBox2.Items.AddRange(new object[] {
+            "Regular",
+            "Mocha",
+            "Latte",
+            "Espresso "});
             this.listBox2.Location = new System.Drawing.Point(4, 49);
             this.listBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox2.Name = "listBox2";
@@ -188,6 +198,12 @@
             this.listBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox3.FormattingEnabled = true;
             this.listBox3.ItemHeight = 20;
+            this.listBox3.Items.AddRange(new object[] {
+            "Cream",
+            "Sugar",
+            "Vanilla Syrup",
+            "Carmel Syrup",
+            "Chocolate Syrup"});
             this.listBox3.Location = new System.Drawing.Point(266, 49);
             this.listBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox3.Name = "listBox3";

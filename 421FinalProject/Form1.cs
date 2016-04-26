@@ -13,7 +13,8 @@ namespace _421FinalProject {
         public PSUBMainForm()
         {
             InitializeComponent();
-            //pnlOrders.Hide();
+            pnlOrders.setMainForm(this);
+            pnlOrders.Hide();
         }
 
         /// <summary>

@@ -13,6 +13,7 @@ namespace _421FinalProject {
         public PSUBMainForm()
         {
             InitializeComponent();
+            //pnlOrders.Hide();
         }
 
         /// <summary>
@@ -21,6 +22,11 @@ namespace _421FinalProject {
         /// </summary>
         private void btnNewOrder_Click(object sender, System.EventArgs e) {
             //  We are going to have to make some interesting things happen here.
+
+            pnlMain.Hide();
+            pnlOrders.Location = pnlMain.Location;
+            pnlOrders.Show();
+
         }
     }
 }

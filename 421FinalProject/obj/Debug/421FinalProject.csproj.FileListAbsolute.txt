@@ -21,3 +21,10 @@ C:\Users\Mason\Documents\GitHub\BehrendDonutShoppe\421FinalProject\obj\Debug\421
 \\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.exe.config
 \\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.exe
 \\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.pdb
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.csprojResolveAssemblyReference.cache
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.PSUBMainForm.resources
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.OrderPanel.resources
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\_421FinalProject.Properties.Resources.resources
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\obj\Debug\421FinalProject.csproj.GenerateResource.Cache
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.exe
+\\Psbdfilesrvr.psu-erie.bd.psu.edu\student\MST5182\Private\Documents\____Classes\SWENG421\BehrendDonutShoppe\421FinalProject\bin\Debug\421FinalProject.pdb

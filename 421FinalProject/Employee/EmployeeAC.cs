@@ -23,6 +23,6 @@ namespace _421FinalProject.Employee {
 
         abstract public CoffeeIF prepareCoffee(CoffeeMachine cm);
 
-        abstract public DonutIF prepareDonut(DonutMachine dm);
+        abstract public DonutIF prepareDonut(DonutMachine dm, string type);
     }
 }

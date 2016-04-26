@@ -54,6 +54,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Machine\CoffeeMachine.cs" />
+    <Compile Include="OrderPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderPanel.Designer.cs">
+      <DependentUpon>OrderPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Orders\CoffeeCondiments.cs" />
     <Compile Include="Orders\CoffeeCream.cs" />
     <Compile Include="Orders\DonutFactory.cs" />
@@ -73,6 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderPanel.resx">
+      <DependentUpon>OrderPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -36,8 +36,9 @@ namespace _421FinalProject.Machine {
             {
                 for (int i = 0; i < condimentList.Count; i++)
                 {
-                    cif =  new CoffeeWrapper()
+                    //cif = new CoffeeWrapper();
                 }
+                return cif;
             }
         }
     }

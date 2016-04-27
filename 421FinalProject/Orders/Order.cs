@@ -2,7 +2,7 @@
 
 namespace _421FinalProject.Orders {
 
-    class Order
+    public class Order
     {
 
         private List<Item> ticketItems;

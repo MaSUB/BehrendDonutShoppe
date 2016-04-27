@@ -17,17 +17,13 @@ namespace _421FinalProject.Orders {
 
             switch (s) {
                 case "Regular":
-                donut = new RegularDonut();
-                return donut;
+                return new RegularDonut();
                 case "Behrend":
-                donut = new BehrendDonut();
-                return donut;
+                return new BehrendDonut();
                 case "Chocolate":
-                donut = new ChocolateDonut();
-                return donut;
+                return new ChocolateDonut();
                 case "Maple":
-                donut = new MDonut();
-                return donut;
+                return new MDonut();
             }
 
             return donut;

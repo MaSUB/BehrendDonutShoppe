@@ -1,5 +1,5 @@
 ﻿namespace _421FinalProject.Orders {
-    public interface Item
+    interface Item
     {
 
         int getPrepTime();

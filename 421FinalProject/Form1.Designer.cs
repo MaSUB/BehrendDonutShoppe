@@ -52,7 +52,7 @@
             this.btnNewOrder.BackColor = System.Drawing.Color.Black;
             this.btnNewOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNewOrder.ForeColor = System.Drawing.Color.White;
-            this.btnNewOrder.Location = new System.Drawing.Point(555, 640);
+            this.btnNewOrder.Location = new System.Drawing.Point(517, 640);
             this.btnNewOrder.Name = "btnNewOrder";
             this.btnNewOrder.Size = new System.Drawing.Size(232, 69);
             this.btnNewOrder.TabIndex = 2;
@@ -73,7 +73,7 @@
             this.pnlOrderDetail.Controls.Add(this.tbInitialOrder);
             this.pnlOrderDetail.Location = new System.Drawing.Point(316, 18);
             this.pnlOrderDetail.Name = "pnlOrderDetail";
-            this.pnlOrderDetail.Size = new System.Drawing.Size(450, 615);
+            this.pnlOrderDetail.Size = new System.Drawing.Size(433, 615);
             this.pnlOrderDetail.TabIndex = 3;
             // 
             // lbOrderDetail
@@ -82,7 +82,7 @@
             this.lbOrderDetail.AutoSize = true;
             this.lbOrderDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOrderDetail.ForeColor = System.Drawing.Color.White;
-            this.lbOrderDetail.Location = new System.Drawing.Point(134, 3);
+            this.lbOrderDetail.Location = new System.Drawing.Point(125, 3);
             this.lbOrderDetail.Name = "lbOrderDetail";
             this.lbOrderDetail.Size = new System.Drawing.Size(205, 37);
             this.lbOrderDetail.TabIndex = 6;
@@ -100,7 +100,7 @@
             this.tbItemStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tbItemStatus.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.tbItemStatus.ShowSelectionMargin = true;
-            this.tbItemStatus.Size = new System.Drawing.Size(448, 222);
+            this.tbItemStatus.Size = new System.Drawing.Size(431, 222);
             this.tbItemStatus.TabIndex = 5;
             this.tbItemStatus.Text = "";
             // 
@@ -148,7 +148,7 @@
             this.tbInitialOrder.Name = "tbInitialOrder";
             this.tbInitialOrder.ReadOnly = true;
             this.tbInitialOrder.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.tbInitialOrder.Size = new System.Drawing.Size(448, 260);
+            this.tbInitialOrder.Size = new System.Drawing.Size(431, 260);
             this.tbInitialOrder.TabIndex = 4;
             this.tbInitialOrder.Text = "";
             // 
@@ -193,22 +193,28 @@
             // 
             // pnlMain
             // 
+            this.pnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlMain.Controls.Add(this.btnNewOrder);
             this.pnlMain.Controls.Add(this.pnlCustomerQueue);
             this.pnlMain.Controls.Add(this.pnlOrderDetail);
             this.pnlMain.Location = new System.Drawing.Point(18, 18);
             this.pnlMain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(788, 751);
+            this.pnlMain.Size = new System.Drawing.Size(771, 751);
             this.pnlMain.TabIndex = 7;
             // 
             // pnlOrders
             // 
+            this.pnlOrders.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlOrders.BackColor = System.Drawing.Color.Black;
             this.pnlOrders.Location = new System.Drawing.Point(812, 31);
             this.pnlOrders.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.pnlOrders.Name = "pnlOrders";
-            this.pnlOrders.Size = new System.Drawing.Size(818, 788);
+            this.pnlOrders.Size = new System.Drawing.Size(634, 788);
             this.pnlOrders.TabIndex = 5;
             // 
             // PSUBMainForm
@@ -216,7 +222,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(824, 788);
+            this.ClientSize = new System.Drawing.Size(807, 788);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlOrders);
             this.Name = "PSUBMainForm";

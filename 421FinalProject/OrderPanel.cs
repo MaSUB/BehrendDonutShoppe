@@ -14,10 +14,17 @@ namespace _421FinalProject
     {
         bool coffee = false;
         bool donut = true;
+
+        PSUBMainForm mainForm;
+
         public OrderPanel()
         {
             InitializeComponent();
             pnlCoffee.Hide();
+        }
+
+        public void setMainForm(PSUBMainForm m) {
+            mainForm = m;
         }
 
         private void btnDonuts_Click(object sender, EventArgs e)
@@ -40,6 +47,7 @@ namespace _421FinalProject
         private void btnFinish_Click(object sender, EventArgs e)
         {
             this.Hide();
+            mainForm.pnlMain.Show();
         }
 
         private void OrderPanel_Load(object sender, EventArgs e)

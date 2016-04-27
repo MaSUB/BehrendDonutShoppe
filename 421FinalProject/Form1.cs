@@ -13,7 +13,8 @@ namespace _421FinalProject {
         public PSUBMainForm()
         {
             InitializeComponent();
-            //pnlOrders.Hide();
+            pnlOrders.setMainForm(this);
+            pnlOrders.Hide();
         }
 
         /// <summary>
@@ -28,5 +29,11 @@ namespace _421FinalProject {
             pnlOrders.Show();
 
         }
+
+        public void addToQueue(Order o) {
+            orderQueue.Enqueue(o);
+        }
+
+
     }
 }

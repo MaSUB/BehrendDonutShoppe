@@ -44,6 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coffee\Coffee.cs" />
+    <Compile Include="Coffee\CoffeeCondimentAC.cs" />
+    <Compile Include="Coffee\CoffeeIF.cs" />
+    <Compile Include="Coffee\CoffeeWrapper.cs" />
+    <Compile Include="Coffee\CondimentFactory.cs" />
     <Compile Include="Employee\Employee.cs" />
     <Compile Include="Employee\EmployeeAC.cs" />
     <Compile Include="Employee\EmployeeIF.cs" />

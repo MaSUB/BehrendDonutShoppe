@@ -21,8 +21,8 @@ namespace _421FinalProject.Employee {
 
         abstract public Order handleOrder();
 
-        abstract public CoffeeIF prepareCoffee(CoffeeMachine cm);
+        abstract public CoffeeIF prepareCoffee(CoffeeMachine cm, string coffeeName, List<string> condimentNameList);
 
-        abstract public DonutIF prepareDonut(DonutMachine dm);
+        abstract public DonutIF prepareDonut(DonutMachine dm, string type);
     }
 }

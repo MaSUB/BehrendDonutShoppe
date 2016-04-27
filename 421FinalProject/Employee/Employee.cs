@@ -52,8 +52,9 @@ namespace _421FinalProject.Employee {
         /// <returns>   
         ///      This returns a CoffeeIF for the order.    
         /// </returns>
-        public override CoffeeIF prepareCoffee(CoffeeMachine cm) {
+        public override CoffeeIF prepareCoffee(CoffeeMachine cm, string coffeeName, List<string> condimentNameList) {
             throw new NotImplementedException();
+            
         }
 
         /// <summary>

@@ -34,19 +34,19 @@
             this.btnCoffee = new System.Windows.Forms.Button();
             this.btnDonuts = new System.Windows.Forms.Button();
             this.pnlDonut = new System.Windows.Forms.Panel();
+            this.cbDonutFilter = new System.Windows.Forms.ComboBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.lbDonuts = new System.Windows.Forms.Label();
             this.pnlCoffee = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox3 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.listBox3 = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.btnAddItem = new System.Windows.Forms.Button();
             this.btnRemoveItem = new System.Windows.Forms.Button();
             this.btnFinish = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.cbDonutFilter = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.pnlDonut.SuspendLayout();
             this.pnlCoffee.SuspendLayout();
@@ -54,7 +54,7 @@
             // 
             // txtOrderItems
             // 
-            this.txtOrderItems.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txtOrderItems.BackColor = System.Drawing.SystemColors.Control;
             this.txtOrderItems.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtOrderItems.Location = new System.Drawing.Point(760, 57);
             this.txtOrderItems.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -92,7 +92,7 @@
             this.btnCoffee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCoffee.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCoffee.ForeColor = System.Drawing.Color.White;
-            this.btnCoffee.Location = new System.Drawing.Point(381, 190);
+            this.btnCoffee.Location = new System.Drawing.Point(381, 188);
             this.btnCoffee.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCoffee.Name = "btnCoffee";
             this.btnCoffee.Size = new System.Drawing.Size(333, 140);
@@ -106,7 +106,7 @@
             this.btnDonuts.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDonuts.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDonuts.ForeColor = System.Drawing.Color.White;
-            this.btnDonuts.Location = new System.Drawing.Point(381, 7);
+            this.btnDonuts.Location = new System.Drawing.Point(381, 9);
             this.btnDonuts.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDonuts.Name = "btnDonuts";
             this.btnDonuts.Size = new System.Drawing.Size(333, 141);
@@ -126,11 +126,26 @@
             this.pnlDonut.Size = new System.Drawing.Size(373, 330);
             this.pnlDonut.TabIndex = 13;
             // 
+            // cbDonutFilter
+            // 
+            this.cbDonutFilter.BackColor = System.Drawing.SystemColors.Control;
+            this.cbDonutFilter.FormattingEnabled = true;
+            this.cbDonutFilter.Location = new System.Drawing.Point(120, 7);
+            this.cbDonutFilter.Name = "cbDonutFilter";
+            this.cbDonutFilter.Size = new System.Drawing.Size(226, 28);
+            this.cbDonutFilter.TabIndex = 8;
+            this.cbDonutFilter.Text = "Donut Filter by Type";
+            // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.listBox1.BackColor = System.Drawing.SystemColors.Control;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
+            this.listBox1.Items.AddRange(new object[] {
+            "Regular Donut",
+            "Maple Donut",
+            "Chocolate Donut",
+            "Behrend Cream Donut"});
             this.listBox1.Location = new System.Drawing.Point(0, 43);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
@@ -160,12 +175,49 @@
             this.pnlCoffee.Location = new System.Drawing.Point(0, 334);
             this.pnlCoffee.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlCoffee.Name = "pnlCoffee";
-            this.pnlCoffee.Size = new System.Drawing.Size(714, 541);
+            this.pnlCoffee.Size = new System.Drawing.Size(714, 536);
             this.pnlCoffee.TabIndex = 14;
+            // 
+            // button2
+            // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(521, 447);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(193, 89);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Remove Condiment";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(344, 447);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(179, 89);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Add Condiment";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // listBox3
+            // 
+            this.listBox3.BackColor = System.Drawing.SystemColors.Control;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 20;
+            this.listBox3.Location = new System.Drawing.Point(344, 98);
+            this.listBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(370, 364);
+            this.listBox3.TabIndex = 10;
             // 
             // listBox2
             // 
-            this.listBox2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.listBox2.BackColor = System.Drawing.SystemColors.Control;
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
             this.listBox2.Location = new System.Drawing.Point(0, 98);
@@ -185,17 +237,6 @@
             this.label2.Size = new System.Drawing.Size(149, 29);
             this.label2.TabIndex = 7;
             this.label2.Text = "Coffee Style:";
-            // 
-            // listBox3
-            // 
-            this.listBox3.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.ItemHeight = 20;
-            this.listBox3.Location = new System.Drawing.Point(344, 98);
-            this.listBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(370, 364);
-            this.listBox3.TabIndex = 10;
             // 
             // label3
             // 
@@ -248,41 +289,6 @@
             this.btnFinish.Text = "Finish Order";
             this.btnFinish.UseVisualStyleBackColor = true;
             this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(344, 447);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(179, 89);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Add Condiment";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(521, 447);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(193, 89);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Remove Condiment";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // cbDonutFilter
-            // 
-            this.cbDonutFilter.FormattingEnabled = true;
-            this.cbDonutFilter.Location = new System.Drawing.Point(120, 7);
-            this.cbDonutFilter.Name = "cbDonutFilter";
-            this.cbDonutFilter.Size = new System.Drawing.Size(226, 28);
-            this.cbDonutFilter.TabIndex = 8;
-            this.cbDonutFilter.Text = "Donut Filter by Type";
             // 
             // OrderPanel
             // 

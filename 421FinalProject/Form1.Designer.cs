@@ -92,9 +92,9 @@
             // 
             this.tbItemStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbItemStatus.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.tbItemStatus.BackColor = System.Drawing.SystemColors.Control;
             this.tbItemStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbItemStatus.Location = new System.Drawing.Point(-2, 86);
+            this.tbItemStatus.Location = new System.Drawing.Point(-1, 63);
             this.tbItemStatus.Name = "tbItemStatus";
             this.tbItemStatus.ReadOnly = true;
             this.tbItemStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -120,7 +120,7 @@
             this.lbCustomer.AutoSize = true;
             this.lbCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCustomer.ForeColor = System.Drawing.Color.White;
-            this.lbCustomer.Location = new System.Drawing.Point(14, 43);
+            this.lbCustomer.Location = new System.Drawing.Point(0, 23);
             this.lbCustomer.Name = "lbCustomer";
             this.lbCustomer.Size = new System.Drawing.Size(165, 37);
             this.lbCustomer.TabIndex = 2;
@@ -142,7 +142,7 @@
             // 
             this.tbInitialOrder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbInitialOrder.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.tbInitialOrder.BackColor = System.Drawing.SystemColors.Control;
             this.tbInitialOrder.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbInitialOrder.Location = new System.Drawing.Point(3, 469);
             this.tbInitialOrder.Name = "tbInitialOrder";
@@ -182,7 +182,7 @@
             this.lstCustomers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstCustomers.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lstCustomers.BackColor = System.Drawing.SystemColors.Control;
             this.lstCustomers.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lstCustomers.FormattingEnabled = true;
             this.lstCustomers.ItemHeight = 20;

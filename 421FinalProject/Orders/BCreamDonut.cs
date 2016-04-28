@@ -12,13 +12,17 @@ namespace _421FinalProject.Orders {
         /// </summary>
         public BCreamDonut() {
 
-            price = 0;  //  need to adjust the price
+            price = 2;
 
         }
 
         public override string description() {
             return "Behrend Cream Donut:\n"+
                 "This donut has a chocolate dopping and is filled with a vanilla cream inside";
+        }
+
+        public override int getPrepTime() {
+            throw new NotImplementedException();
         }
 
         public override double getPrice() {

@@ -49,6 +49,7 @@
     <Compile Include="Coffee\CoffeeIF.cs" />
     <Compile Include="Coffee\CoffeeWrapper.cs" />
     <Compile Include="Coffee\CondimentFactory.cs" />
+    <Compile Include="Employee\BehrendCafe.cs" />
     <Compile Include="Employee\Employee.cs" />
     <Compile Include="Employee\EmployeeAC.cs" />
     <Compile Include="Employee\EmployeeIF.cs" />
@@ -65,15 +66,11 @@
     <Compile Include="OrderPanel.Designer.cs">
       <DependentUpon>OrderPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Orders\CoffeeCondiments.cs" />
-    <Compile Include="Orders\CoffeeCream.cs" />
     <Compile Include="Orders\DonutFactory.cs" />
     <Compile Include="Machine\DonutMachine.cs" />
     <Compile Include="Machine\MachineIF.cs" />
     <Compile Include="Orders\BCreamDonut.cs" />
-    <Compile Include="Orders\BehrendDonut.cs" />
     <Compile Include="Orders\ChocolateDonut.cs" />
-    <Compile Include="Orders\CoffeeIF.cs" />
     <Compile Include="Orders\DonutAC.cs" />
     <Compile Include="Orders\DonutIF.cs" />
     <Compile Include="Orders\Item.cs" />

@@ -26,6 +26,7 @@ namespace _421FinalProject {
 
             pnlMain.Hide();
             pnlOrders.Location = pnlMain.Location;
+            pnlOrders.Size = pnlMain.Size;
             pnlOrders.Show();
 
         }

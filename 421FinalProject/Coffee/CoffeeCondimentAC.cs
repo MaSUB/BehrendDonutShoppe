@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _421FinalProject.Orders;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,18 +7,22 @@ using System.Threading.Tasks;
 
 namespace _421FinalProject.Coffee
 {
-    abstract class CoffeeCondimentAC
+    abstract class CoffeeCondimentAC : Item
     {
-        protected double cost;
-        protected string name;
-        public double getCost()
-        {
-            return cost;
-        }
+        internal double cost;
+        internal string name;
 
         public string getName()
         {
             return name;
+        }
+
+        public int getPrepTime() {
+            return 0;
+        }
+
+        public double getPrice() {
+            return cost;
         }
     }
 

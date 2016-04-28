@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _421FinalProject.Coffee
 {
-    interface CoffeeIF
+    public interface CoffeeIF
     {
         double getMenuPrice();
         string getName();

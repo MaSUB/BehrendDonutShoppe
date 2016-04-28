@@ -15,18 +15,9 @@ namespace _421FinalProject.Orders {
 
         public DonutIF getDonut(string s) {
 
-            switch (s) {
-                case "Regular":
-                return new RegularDonut();
-                case "Behrend":
-                return new BehrendDonut();
-                case "Chocolate":
-                return new ChocolateDonut();
-                case "Maple":
-                return new MDonut();
-            }
-
-            return donut;
+                donut = (DonutAC) Activator.CreateInstance(Type.GetType("421FinalProject" + "." + s));
+                return donut;
+               
         }
 
         public int getPrepTime() {

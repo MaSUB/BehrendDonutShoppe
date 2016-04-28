@@ -52,9 +52,9 @@
             this.btnNewOrder.BackColor = System.Drawing.Color.Black;
             this.btnNewOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNewOrder.ForeColor = System.Drawing.Color.White;
-            this.btnNewOrder.Location = new System.Drawing.Point(517, 640);
+            this.btnNewOrder.Location = new System.Drawing.Point(826, 806);
             this.btnNewOrder.Name = "btnNewOrder";
-            this.btnNewOrder.Size = new System.Drawing.Size(232, 69);
+            this.btnNewOrder.Size = new System.Drawing.Size(232, 91);
             this.btnNewOrder.TabIndex = 2;
             this.btnNewOrder.Text = " New Order";
             this.btnNewOrder.UseVisualStyleBackColor = false;
@@ -73,7 +73,7 @@
             this.pnlOrderDetail.Controls.Add(this.tbInitialOrder);
             this.pnlOrderDetail.Location = new System.Drawing.Point(316, 18);
             this.pnlOrderDetail.Name = "pnlOrderDetail";
-            this.pnlOrderDetail.Size = new System.Drawing.Size(433, 615);
+            this.pnlOrderDetail.Size = new System.Drawing.Size(742, 782);
             this.pnlOrderDetail.TabIndex = 3;
             // 
             // lbOrderDetail
@@ -82,7 +82,7 @@
             this.lbOrderDetail.AutoSize = true;
             this.lbOrderDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOrderDetail.ForeColor = System.Drawing.Color.White;
-            this.lbOrderDetail.Location = new System.Drawing.Point(125, 3);
+            this.lbOrderDetail.Location = new System.Drawing.Point(280, 3);
             this.lbOrderDetail.Name = "lbOrderDetail";
             this.lbOrderDetail.Size = new System.Drawing.Size(205, 37);
             this.lbOrderDetail.TabIndex = 6;
@@ -92,7 +92,7 @@
             // 
             this.tbItemStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbItemStatus.BackColor = System.Drawing.Color.Gray;
+            this.tbItemStatus.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tbItemStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbItemStatus.Location = new System.Drawing.Point(-2, 86);
             this.tbItemStatus.Name = "tbItemStatus";
@@ -100,7 +100,7 @@
             this.tbItemStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tbItemStatus.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.tbItemStatus.ShowSelectionMargin = true;
-            this.tbItemStatus.Size = new System.Drawing.Size(431, 222);
+            this.tbItemStatus.Size = new System.Drawing.Size(740, 338);
             this.tbItemStatus.TabIndex = 5;
             this.tbItemStatus.Text = "";
             // 
@@ -132,7 +132,7 @@
             this.lbStatus.AutoSize = true;
             this.lbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStatus.ForeColor = System.Drawing.Color.White;
-            this.lbStatus.Location = new System.Drawing.Point(3, 315);
+            this.lbStatus.Location = new System.Drawing.Point(3, 426);
             this.lbStatus.Name = "lbStatus";
             this.lbStatus.Size = new System.Drawing.Size(208, 37);
             this.lbStatus.TabIndex = 0;
@@ -142,13 +142,13 @@
             // 
             this.tbInitialOrder.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbInitialOrder.BackColor = System.Drawing.Color.Gray;
+            this.tbInitialOrder.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.tbInitialOrder.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInitialOrder.Location = new System.Drawing.Point(3, 358);
+            this.tbInitialOrder.Location = new System.Drawing.Point(3, 469);
             this.tbInitialOrder.Name = "tbInitialOrder";
             this.tbInitialOrder.ReadOnly = true;
             this.tbInitialOrder.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.tbInitialOrder.Size = new System.Drawing.Size(431, 260);
+            this.tbInitialOrder.Size = new System.Drawing.Size(740, 310);
             this.tbInitialOrder.TabIndex = 4;
             this.tbInitialOrder.Text = "";
             // 
@@ -160,7 +160,7 @@
             this.pnlCustomerQueue.Controls.Add(this.lstCustomers);
             this.pnlCustomerQueue.Location = new System.Drawing.Point(14, 18);
             this.pnlCustomerQueue.Name = "pnlCustomerQueue";
-            this.pnlCustomerQueue.Size = new System.Drawing.Size(296, 618);
+            this.pnlCustomerQueue.Size = new System.Drawing.Size(296, 785);
             this.pnlCustomerQueue.TabIndex = 4;
             // 
             // lbCustomerList
@@ -182,13 +182,13 @@
             this.lstCustomers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstCustomers.BackColor = System.Drawing.Color.Gray;
+            this.lstCustomers.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lstCustomers.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lstCustomers.FormattingEnabled = true;
             this.lstCustomers.ItemHeight = 20;
             this.lstCustomers.Location = new System.Drawing.Point(0, 63);
             this.lstCustomers.Name = "lstCustomers";
-            this.lstCustomers.Size = new System.Drawing.Size(296, 540);
+            this.lstCustomers.Size = new System.Drawing.Size(296, 720);
             this.lstCustomers.TabIndex = 0;
             // 
             // pnlMain
@@ -202,7 +202,7 @@
             this.pnlMain.Location = new System.Drawing.Point(18, 18);
             this.pnlMain.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(771, 751);
+            this.pnlMain.Size = new System.Drawing.Size(1080, 918);
             this.pnlMain.TabIndex = 7;
             // 
             // pnlOrders
@@ -210,11 +210,12 @@
             this.pnlOrders.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlOrders.AutoSize = true;
             this.pnlOrders.BackColor = System.Drawing.Color.Black;
-            this.pnlOrders.Location = new System.Drawing.Point(812, 31);
+            this.pnlOrders.Location = new System.Drawing.Point(1108, 26);
             this.pnlOrders.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
             this.pnlOrders.Name = "pnlOrders";
-            this.pnlOrders.Size = new System.Drawing.Size(634, 788);
+            this.pnlOrders.Size = new System.Drawing.Size(1068, 978);
             this.pnlOrders.TabIndex = 5;
             // 
             // PSUBMainForm
@@ -222,7 +223,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(807, 788);
+            this.ClientSize = new System.Drawing.Size(1115, 978);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlOrders);
             this.Name = "PSUBMainForm";
@@ -234,6 +235,7 @@
             this.pnlCustomerQueue.PerformLayout();
             this.pnlMain.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

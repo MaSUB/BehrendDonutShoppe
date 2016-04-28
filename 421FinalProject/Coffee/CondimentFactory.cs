@@ -4,33 +4,31 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _421FinalProject.Coffee
-{
-    class CondimentFactory : CoffeeCondimentAC
-    {
-        public CoffeeCondimentAC getCondiment(string s)
-        {   
-            CoffeeCondimentAC cac;
-            switch (s)
-            {
-                case "vanilla":
-                    {
-                        return new Vanilla();
-                    }
+namespace _421FinalProject.Coffee {
+    class CondimentFactory : CoffeeCondimentAC {
 
-                case "chocolate":
-                    {
-                        return new Chocolate();
-                    }
+        CoffeeCondimentAC cac;
 
-                case "cream":
-                    {
-                        return new Cream();
-                    }
-                default:
-                    {
-                        return null;
-                    }
+        public CoffeeCondimentAC getCondiment(string s) {
+
+            switch (s) {
+                case "vanilla": {
+                    cac = new Vanilla();
+                    return cac;
+                }
+
+                case "chocolate": {
+                    cac = new Chocolate();
+                    return cac;
+                }
+
+                case "cream": {
+                    cac = new Cream();
+                    return cac;
+                }
+                default: {
+                    return null;
+                }
             }
         }
     }

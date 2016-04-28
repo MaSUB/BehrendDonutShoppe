@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace _421FinalProject.Orders {
     abstract class DonutAC : DonutIF {
@@ -6,14 +10,13 @@ namespace _421FinalProject.Orders {
         internal double price;
 
         /// <summary>
-        ///     returns the price of the donut
+        ///     gets all the needed attributes of the donuts
         /// </summary>
         public abstract double getPrice();
-
         public abstract string description();
-
-        public int getPrepTime() {
-            throw new NotImplementedException();
-        }
+        public abstract int getPrepTime();
+        
     }
 }
+
+

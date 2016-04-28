@@ -1,4 +1,5 @@
-﻿using _421FinalProject.Machine;
+﻿using _421FinalProject.Coffee;
+using _421FinalProject.Machine;
 using _421FinalProject.Orders;
 using System;
 using System.Collections.Generic;
@@ -53,8 +54,7 @@ namespace _421FinalProject.Employee {
         ///      This returns a CoffeeIF for the order.    
         /// </returns>
         public override CoffeeIF prepareCoffee(CoffeeMachine cm, string coffeeName, List<string> condimentNameList) {
-            throw new NotImplementedException();
-            
+            return cm.makeCoffee(coffeeName, condimentNameList);
         }
 
         /// <summary>

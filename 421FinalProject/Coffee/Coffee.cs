@@ -8,8 +8,8 @@ namespace _421FinalProject.Coffee
 {
     class Coffee : CoffeeIF
     {
-        protected double cost;
-        protected string name;
+        internal double cost;
+        internal string name;
         public double getMenuPrice()
         {
             return cost;
@@ -32,6 +32,7 @@ namespace _421FinalProject.Coffee
             name = "Regular";
         }
     }
+
     class Mocha : Coffee
     {
         public Mocha()
@@ -40,6 +41,7 @@ namespace _421FinalProject.Coffee
             name = "Mocha";
         }
     }
+
     class Other : Coffee
     {
         public Other()
@@ -48,12 +50,20 @@ namespace _421FinalProject.Coffee
             name = "Other";
         }
     }
+
     class Cappuccino : Coffee
     {
         public Cappuccino()
         {
             cost = 3;
             name = "Cappuccino";
+        }
+    }
+
+    class Latte : Coffee {
+        public Latte() {
+            cost = 6;
+            name = "Latte";
         }
     }
 }

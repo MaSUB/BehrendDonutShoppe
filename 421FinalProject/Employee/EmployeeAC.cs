@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using _421FinalProject.Machine;
 using _421FinalProject.Orders;
+using _421FinalProject.Coffee;
 
 namespace _421FinalProject.Employee {
     abstract class EmployeeAC : EmployeeIF {
@@ -20,9 +21,7 @@ namespace _421FinalProject.Employee {
         }
 
         abstract public Order handleOrder();
-
         abstract public CoffeeIF prepareCoffee(CoffeeMachine cm, string coffeeName, List<string> condimentNameList);
-
         abstract public DonutIF prepareDonut(DonutMachine dm, string type);
     }
 }

@@ -1,4 +1,5 @@
-﻿using _421FinalProject.Machine;
+﻿using _421FinalProject.Coffee;
+using _421FinalProject.Machine;
 using _421FinalProject.Orders;
 using System.Collections.Generic;
 

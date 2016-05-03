@@ -2,5 +2,8 @@
     interface DonutIF : Item
     {
         string description();
+        int getCalories();
+        bool isGlazed();
+        bool isIced();
     }
 }

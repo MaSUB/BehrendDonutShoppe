@@ -11,25 +11,9 @@ namespace _421FinalProject.Coffee {
 
         public CoffeeCondimentAC getCondiment(string s) {
 
-            switch (s) {
-                case "vanilla": {
-                    cac = new Vanilla();
-                    return cac;
-                }
+            cac = (CoffeeCondimentAC) Activator.CreateInstance(Type.GetType("421FinalProject.Coffee" + "." + s));
+            return cac;
 
-                case "chocolate": {
-                    cac = new Chocolate();
-                    return cac;
-                }
-
-                case "cream": {
-                    cac = new Cream();
-                    return cac;
-                }
-                default: {
-                    return null;
-                }
-            }
         }
     }
 }

@@ -1,27 +1,17 @@
 ﻿using System;
 
 namespace _421FinalProject.Orders {
-    class DonutFactory : DonutIF {
+    class DonutFactory : DonutAC {
 
         DonutAC donut;
 
-        public string description() {
+        public override string description() {
             return donut.description();
         }
 
-        public double getPrice() {
-            return donut.getPrice();
-        }
-
         public DonutIF getDonut(string s) {
-
-                donut = (DonutAC) Activator.CreateInstance(Type.GetType("421FinalProject" + "." + s));
+                donut = (DonutAC) Activator.CreateInstance(Type.GetType("421FinalProject.Orders" + "." + s));
                 return donut;
-               
-        }
-
-        public int getPrepTime() {
-            return donut.getPrepTime();
         }
     }
 }

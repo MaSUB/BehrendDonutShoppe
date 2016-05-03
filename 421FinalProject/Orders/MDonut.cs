@@ -11,19 +11,16 @@ namespace _421FinalProject.Orders {
         /// </summary>
         public MDonut() {
             price = 1.25;
+            glazeFilter = false;
+            IcingFilter = true;
+            itemFinished = false;
+            preptime = 15;
         }
 
         public override string description() {
             return "Maple Donut:\nThis donut has a maple syrup style topping";
         }
 
-        public override int getPrepTime() {
-            throw new NotImplementedException();
-        }
-
-        public override double getPrice() {
-            throw new NotImplementedException();
-        }
     }
 
 }

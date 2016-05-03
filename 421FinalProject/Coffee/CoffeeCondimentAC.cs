@@ -5,15 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _421FinalProject.Coffee
-{
-    abstract class CoffeeCondimentAC : Item
-    {
+namespace _421FinalProject.Coffee {
+    abstract class CoffeeCondimentAC : Item {
+
+
         internal double cost;
         internal string name;
+        internal bool itemFinished;
 
-        public string getName()
-        {
+        public string getName() {
             return name;
         }
 
@@ -24,32 +24,41 @@ namespace _421FinalProject.Coffee
         public double getPrice() {
             return cost;
         }
-    }
 
-    class Cream : CoffeeCondimentAC
-    {
-        public Cream()
-        {
-            cost = 0.25;
-            name = "cream";
+        public bool isFinished() {
+            return itemFinished;
         }
     }
 
-    class Vanilla : CoffeeCondimentAC
-    {
-        public Vanilla()
-        {
+    class Cream : CoffeeCondimentAC {
+        public Cream() {
+            cost = 0;
+            itemFinished = false;
+            name = "Cream";
+        }
+    }
+
+    class Vanilla : CoffeeCondimentAC {
+        public Vanilla() {
             cost = 0.50;
-            name = "vanilla";
+            itemFinished = false;
+            name = "Vanilla";
         }
     }
 
-    class Chocolate : CoffeeCondimentAC
-    {
-        public Chocolate()
-        {
+    class Chocolate : CoffeeCondimentAC {
+        public Chocolate() {
             cost = 1.00;
-            name = "chocolate";
+            itemFinished = false;
+            name = "Chocolate";
+        }
+    }
+
+    class Sugar : CoffeeCondimentAC {
+        public Sugar() {
+            cost = 0;
+            itemFinished = false;
+            name = "Sugar";
         }
     }
 }

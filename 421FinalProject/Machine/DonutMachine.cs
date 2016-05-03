@@ -1,8 +1,7 @@
 ﻿using _421FinalProject.Orders;
 using System.Threading;
 namespace _421FinalProject.Machine {
-    class DonutMachine : MachineIF
-    {
+    class DonutMachine : MachineIF {
 
         DonutFactory df;
         bool isBusy;
@@ -17,12 +16,9 @@ namespace _421FinalProject.Machine {
         /// <returns>
         ///    donut that the employee requested the machine to make
         /// </returns>
-        public DonutIF makeDonut(string s)
-        {
-            if (!isBusy)
-            {
-                lock(this)
-                {
+        public DonutIF makeDonut(string s) {
+            if (!isBusy) {
+                lock (this) {
                     isBusy = true;
                     //  wait for 5 seconds or something like that because whatever.
                     Thread.Sleep(5000);

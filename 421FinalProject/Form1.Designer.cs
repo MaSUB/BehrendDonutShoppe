@@ -40,6 +40,7 @@
             this.lbCustomerList = new System.Windows.Forms.Label();
             this.lstCustomers = new System.Windows.Forms.ListBox();
             this.pnlMain = new System.Windows.Forms.Panel();
+            this.btnPickUp = new System.Windows.Forms.Button();
             this.pnlOrders = new _421FinalProject.OrderPanel();
             this.pnlOrderDetail.SuspendLayout();
             this.pnlCustomerQueue.SuspendLayout();
@@ -52,7 +53,7 @@
             this.btnNewOrder.BackColor = System.Drawing.Color.Black;
             this.btnNewOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNewOrder.ForeColor = System.Drawing.Color.White;
-            this.btnNewOrder.Location = new System.Drawing.Point(826, 806);
+            this.btnNewOrder.Location = new System.Drawing.Point(826, 810);
             this.btnNewOrder.Name = "btnNewOrder";
             this.btnNewOrder.Size = new System.Drawing.Size(232, 91);
             this.btnNewOrder.TabIndex = 2;
@@ -65,6 +66,7 @@
             this.pnlOrderDetail.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlOrderDetail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlOrderDetail.Controls.Add(this.lbOrderDetail);
             this.pnlOrderDetail.Controls.Add(this.tbItemStatus);
             this.pnlOrderDetail.Controls.Add(this.lbOrderItems);
@@ -82,7 +84,7 @@
             this.lbOrderDetail.AutoSize = true;
             this.lbOrderDetail.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOrderDetail.ForeColor = System.Drawing.Color.White;
-            this.lbOrderDetail.Location = new System.Drawing.Point(280, 3);
+            this.lbOrderDetail.Location = new System.Drawing.Point(279, 3);
             this.lbOrderDetail.Name = "lbOrderDetail";
             this.lbOrderDetail.Size = new System.Drawing.Size(205, 37);
             this.lbOrderDetail.TabIndex = 6;
@@ -100,7 +102,7 @@
             this.tbItemStatus.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tbItemStatus.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
             this.tbItemStatus.ShowSelectionMargin = true;
-            this.tbItemStatus.Size = new System.Drawing.Size(740, 338);
+            this.tbItemStatus.Size = new System.Drawing.Size(738, 338);
             this.tbItemStatus.TabIndex = 5;
             this.tbItemStatus.Text = "";
             // 
@@ -120,7 +122,7 @@
             this.lbCustomer.AutoSize = true;
             this.lbCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCustomer.ForeColor = System.Drawing.Color.White;
-            this.lbCustomer.Location = new System.Drawing.Point(0, 23);
+            this.lbCustomer.Location = new System.Drawing.Point(5, 23);
             this.lbCustomer.Name = "lbCustomer";
             this.lbCustomer.Size = new System.Drawing.Size(165, 37);
             this.lbCustomer.TabIndex = 2;
@@ -132,7 +134,7 @@
             this.lbStatus.AutoSize = true;
             this.lbStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStatus.ForeColor = System.Drawing.Color.White;
-            this.lbStatus.Location = new System.Drawing.Point(3, 426);
+            this.lbStatus.Location = new System.Drawing.Point(5, 427);
             this.lbStatus.Name = "lbStatus";
             this.lbStatus.Size = new System.Drawing.Size(208, 37);
             this.lbStatus.TabIndex = 0;
@@ -144,11 +146,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tbInitialOrder.BackColor = System.Drawing.SystemColors.Control;
             this.tbInitialOrder.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbInitialOrder.Location = new System.Drawing.Point(3, 469);
+            this.tbInitialOrder.Location = new System.Drawing.Point(3, 467);
             this.tbInitialOrder.Name = "tbInitialOrder";
             this.tbInitialOrder.ReadOnly = true;
             this.tbInitialOrder.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.tbInitialOrder.Size = new System.Drawing.Size(740, 310);
+            this.tbInitialOrder.Size = new System.Drawing.Size(738, 310);
             this.tbInitialOrder.TabIndex = 4;
             this.tbInitialOrder.Text = "";
             // 
@@ -156,6 +158,7 @@
             // 
             this.pnlCustomerQueue.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnlCustomerQueue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlCustomerQueue.Controls.Add(this.lbCustomerList);
             this.pnlCustomerQueue.Controls.Add(this.lstCustomers);
             this.pnlCustomerQueue.Location = new System.Drawing.Point(14, 18);
@@ -188,7 +191,7 @@
             this.lstCustomers.ItemHeight = 20;
             this.lstCustomers.Location = new System.Drawing.Point(0, 63);
             this.lstCustomers.Name = "lstCustomers";
-            this.lstCustomers.Size = new System.Drawing.Size(296, 720);
+            this.lstCustomers.Size = new System.Drawing.Size(294, 700);
             this.lstCustomers.TabIndex = 0;
             // 
             // pnlMain
@@ -196,6 +199,7 @@
             this.pnlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlMain.Controls.Add(this.btnPickUp);
             this.pnlMain.Controls.Add(this.btnNewOrder);
             this.pnlMain.Controls.Add(this.pnlCustomerQueue);
             this.pnlMain.Controls.Add(this.pnlOrderDetail);
@@ -204,6 +208,19 @@
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(1080, 918);
             this.pnlMain.TabIndex = 7;
+            // 
+            // btnPickUp
+            // 
+            this.btnPickUp.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnPickUp.BackColor = System.Drawing.Color.Black;
+            this.btnPickUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPickUp.ForeColor = System.Drawing.Color.White;
+            this.btnPickUp.Location = new System.Drawing.Point(569, 810);
+            this.btnPickUp.Name = "btnPickUp";
+            this.btnPickUp.Size = new System.Drawing.Size(232, 91);
+            this.btnPickUp.TabIndex = 5;
+            this.btnPickUp.Text = "Pick Up Order";
+            this.btnPickUp.UseVisualStyleBackColor = false;
             // 
             // pnlOrders
             // 
@@ -253,6 +270,7 @@
         private System.Windows.Forms.RichTextBox tbItemStatus;
         private OrderPanel pnlOrders;
         public System.Windows.Forms.Panel pnlMain;
+        private System.Windows.Forms.Button btnPickUp;
     }
 }
 

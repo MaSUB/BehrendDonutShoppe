@@ -8,18 +8,14 @@ namespace _421FinalProject.Orders {
         /// </summary>
         public RegularDonut() {
             price = 1;
+            glazeFilter = true;
+            IcingFilter = false;
+            itemFinished = false;
+            preptime = 10;
         }
 
         public override string description() {
             return "Regular Donut:\nThis donut has a sugar glaze all over the donut.";
-        }
-
-        public override int getPrepTime() {
-            return 20;
-        }
-
-        public override double getPrice() {
-            return price;
         }
 
     }

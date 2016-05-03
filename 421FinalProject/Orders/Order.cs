@@ -42,7 +42,6 @@ namespace _421FinalProject.Orders {
                 itemStrings.Add(s);
                 itemCondimentStrings.Add(con);
             }
-
         }
 
         /// <summary>

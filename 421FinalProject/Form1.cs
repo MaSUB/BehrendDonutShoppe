@@ -34,7 +34,5 @@ namespace _421FinalProject {
         public void addToQueue(Order o) {
             orderQueue.Enqueue(o);
         }
-
-
     }
 }
